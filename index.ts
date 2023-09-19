@@ -27,6 +27,7 @@ module.exports = {
     parserOptions: {
         ecmaVersion: "latest",
         sourceType: "module",
+        project: ["./tsconfig.json"],
     },
     plugins: [
         "react",
@@ -62,7 +63,6 @@ module.exports = {
         "@typescript-eslint/no-unsafe-call": 0,
         "@typescript-eslint/no-unsafe-assignment": 0,
         "@typescript-eslint/no-unsafe-member-access": 0,
-        "@typescript-eslint/no-namespace": 0,
         "@typescript-eslint/consistent-type-definitions": [2, "type"],
 
         // Unicorn
