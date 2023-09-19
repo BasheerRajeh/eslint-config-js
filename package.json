@@ -1,6 +1,6 @@
 {
   "name": "config-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Config-ESLint is a comprehensive ESLint configuration package that helps you maintain code quality and consistency in your JavaScript and TypeScript projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

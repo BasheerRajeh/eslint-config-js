@@ -1,5 +1,11 @@
 # config-eslint
 
+## 1.0.1
+
+### Patch Changes
+
+- 1c65f10: fixing parsing error
+
 ## 1.0.0
 
 ### Major Changes
