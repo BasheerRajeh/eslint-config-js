@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rajeh",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "ESLint-Config is a comprehensive ESLint configuration package that helps you maintain code quality and consistency in your JavaScript and TypeScript projects",
   "main": "index.js",
   "license": "MIT",
