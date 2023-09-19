@@ -87,6 +87,10 @@ module.exports = {
         // Import
         "import/no-namespace": 0,
 
+        "rules": {
+            "prettier/prettier": ["error", { "endOfLine": "auto" }]
+        },
+
         // React
         "react/prop-types": 0,
         "react/react-in-jsx-scope": 0,
