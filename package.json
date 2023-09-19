@@ -2,8 +2,7 @@
   "name": "config-eslint",
   "version": "1.0.0",
   "description": "Config-ESLint is a comprehensive ESLint configuration package that helps you maintain code quality and consistency in your JavaScript and TypeScript projects",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
   "license": "MIT",
   "homepage": "https://github.com/BasheerRajeh/config-eslint-js",
   "repository": {
@@ -16,13 +15,9 @@
   "files": [
     ".gitignore",
     "index.js",
-    "tsconfig.json",
+    "package.json",
     "README.md"
   ],
-  "scripts": {
-    "build": "tsup index.ts --format cjs, esm --dts",
-    "prepare": "husky install"
-  },
   "author": "Basheer Rajeh (https://github.com/BasheerRajeh)",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.2",
@@ -45,9 +40,7 @@
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "eslint": "^8.49.0",
-    "husky": "^8.0.0",
-    "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
+    "husky": "^8.0.0"
   },
   "keywords": [
     "eslint",
