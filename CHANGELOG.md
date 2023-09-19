@@ -1,5 +1,11 @@
 # eslint-config-rajeh
 
+## 0.2.2
+
+### Patch Changes
+
+- d7195b1: fix rule error
+
 ## 0.2.1
 
 ### Patch Changes
