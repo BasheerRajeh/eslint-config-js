@@ -88,7 +88,7 @@ module.exports = {
         "import/no-namespace": 0,
 
         "rules": {
-            "prettier/prettier": ["error", { "endOfLine": "auto" }]
+            "prettier/prettier": [2, { "endOfLine": "auto" }]
         },
 
         // React
