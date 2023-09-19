@@ -5,9 +5,9 @@ Config-ESLint is a comprehensive ESLint configuration package that helps you mai
 <div align="center">
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![Visits Badge](https://badges.pufler.dev/visits/BasheerRajeh/config-eslint-js)](https://github.com/BasheerRajeh/config-eslint-js)
-[![Created Badge](https://badges.pufler.dev/created/BasheerRajeh/config-eslint-js)](https://www.npmjs.com/package/config-eslint)
-[![Updated Badge](https://badges.pufler.dev/updated/BasheerRajeh/config-eslint-js)](https://www.npmjs.com/package/config-eslint)
+[![Visits Badge](https://badges.pufler.dev/visits/BasheerRajeh/eslint-config-js)](https://github.com/BasheerRajeh/eslint-config-js)
+[![Created Badge](https://badges.pufler.dev/created/BasheerRajeh/eslint-config-js)](https://www.npmjs.com/package/config-eslint)
+[![Updated Badge](https://badges.pufler.dev/updated/BasheerRajeh/eslint-config-js)](https://www.npmjs.com/package/config-eslint)
 
 </div>
 
@@ -21,10 +21,10 @@ Config-ESLint is a comprehensive ESLint configuration package that helps you mai
 
 ## Installation
 
-You can install Config-ESLint using npm:
+You can install ESLint-Config using npm:
 
 ```bash
-npm install -D config-eslint
+npm install -D eslint-config-rajeh
 ```
 
 ## Usage
@@ -33,7 +33,15 @@ To use Config-ESLint, extend its configuration in your ESLint configuration file
 
 ```js
 module.exports = {
-    extends: ["config-eslint"],
+    extends: [
+        // Other eslint plugin
+        "rajeh",
+    ],
+    // Parse Options
+    parserOptions: {
+        project: "./tsconfig.json",
+        ecmaVersion: "latest",
+    },
 };
 ```
 
