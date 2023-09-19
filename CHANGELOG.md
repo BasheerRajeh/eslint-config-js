@@ -1,5 +1,11 @@
 # eslint-config-rajeh
 
+## 0.2.1
+
+### Patch Changes
+
+- 840add2: fix error in prettier rule
+
 ## 0.2.0
 
 ### Minor Changes
