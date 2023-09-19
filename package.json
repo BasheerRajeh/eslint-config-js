@@ -1,6 +1,6 @@
 {
   "name": "config-eslint",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Config-ESLint is a comprehensive ESLint configuration package that helps you maintain code quality and consistency in your JavaScript and TypeScript projects",
   "main": "index.js",
   "license": "MIT",
