@@ -1,5 +1,11 @@
 # eslint-config-rajeh
 
+## 0.2.0
+
+### Minor Changes
+
+- d5e3015: add end of line auto rule
+
 ## 0.1.0
 
 ### Minor Changes
