@@ -1,5 +1,12 @@
 # config-eslint
 
+## 1.0.2
+
+### Patch Changes
+
+- b76297e: rewrite it using javascript
+- b76297e: update tsconfig.json
+
 ## 1.0.1
 
 ### Patch Changes
