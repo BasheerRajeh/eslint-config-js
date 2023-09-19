@@ -1,5 +1,11 @@
 # config-eslint
 
+## 1.0.3
+
+### Patch Changes
+
+- 22ad9a5: add peerDependencies eslint
+
 ## 1.0.2
 
 ### Patch Changes
