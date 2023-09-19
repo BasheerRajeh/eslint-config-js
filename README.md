@@ -1,4 +1,4 @@
-# Config-ESLint
+# ESLint-Config
 
 Config-ESLint is a comprehensive ESLint configuration package that helps you maintain code quality and consistency in your JavaScript and TypeScript projects. This package comes with a predefined set of rules and plugins to streamline your ESLint setup.
 
@@ -13,11 +13,11 @@ Config-ESLint is a comprehensive ESLint configuration package that helps you mai
 
 ## Features
 
-- A well-rounded ESLint configuration with carefully selected rules and plugins.
-- Supports JavaScript and TypeScript projects.
-- Optimized for React development.
-- Preconfigured for accessibility (a11y), security, and code formatting (Prettier).
-- Ready to use without the need for additional plugin installations.
+-   A well-rounded ESLint configuration with carefully selected rules and plugins.
+-   Supports JavaScript and TypeScript projects.
+-   Optimized for React development.
+-   Preconfigured for accessibility (a11y), security, and code formatting (Prettier).
+-   Ready to use without the need for additional plugin installations.
 
 ## Installation
 
@@ -30,44 +30,46 @@ npm install -D config-eslint
 ## Usage
 
 To use Config-ESLint, extend its configuration in your ESLint configuration file (e.g., `.eslintrc.js`):
+
 ```js
 module.exports = {
-  extends: ['config-eslint']
-}
+    extends: ["config-eslint"],
+};
 ```
+
 This simple configuration setup will apply all the recommended rules and plugins included in Config-ESLint.
 
 ## Dependencies
 
 Config-ESLint includes a wide range of ESLint dependencies, which are already bundled and configured for you. Here's a list of some of the key dependencies:
 
-- `eslint:recommended`
-- `plugin:react/recommended`
-- `plugin:react-hooks/recommended`
-- `plugin:jsx-a11y/strict`
-- `plugin:@typescript-eslint/strict`
-- `plugin:@typescript-eslint/recommended`
-- `plugin:@typescript-eslint/recommended-requiring-type-checking`
-- `plugin:@typescript-eslint/eslint-recommended`
-- `plugin:@typescript-eslint/stylistic`
-- `plugin:security/recommended`
-- `plugin:prettier/recommended`
-- `plugin:tailwindcss/recommended`
-- `plugin:github/recommended`
-- `plugin:github/react`
-- `plugin:github/typescript`
-- `plugin:sonarjs/recommended`
-- `plugin:unicorn/recommended`
-- `simple-import-sort`
-- `unused-imports`
+-   `eslint:recommended`
+-   `plugin:react/recommended`
+-   `plugin:react-hooks/recommended`
+-   `plugin:jsx-a11y/strict`
+-   `plugin:@typescript-eslint/strict`
+-   `plugin:@typescript-eslint/recommended`
+-   `plugin:@typescript-eslint/recommended-requiring-type-checking`
+-   `plugin:@typescript-eslint/eslint-recommended`
+-   `plugin:@typescript-eslint/stylistic`
+-   `plugin:security/recommended`
+-   `plugin:prettier/recommended`
+-   `plugin:tailwindcss/recommended`
+-   `plugin:github/recommended`
+-   `plugin:github/react`
+-   `plugin:github/typescript`
+-   `plugin:sonarjs/recommended`
+-   `plugin:unicorn/recommended`
+-   `simple-import-sort`
+-   `unused-imports`
 
 You do not need to install these dependencies separately; they are already bundled and configured within Config-ESLint.
-
 
 With Config-ESLint in your project, you can focus on writing high-quality code without worrying about ESLint setup complexities. Enjoy coding!
 
 ## Authors
-- [@BasheerRajeh](https://github.com/BasheerRajeh)
+
+-   [@BasheerRajeh](https://github.com/BasheerRajeh)
 
 ## License
 

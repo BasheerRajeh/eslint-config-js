@@ -1,16 +1,16 @@
 {
-  "name": "config-eslint",
-  "version": "1.0.3",
-  "description": "Config-ESLint is a comprehensive ESLint configuration package that helps you maintain code quality and consistency in your JavaScript and TypeScript projects",
+  "name": "eslint-config-rajeh",
+  "version": "0.0.1",
+  "description": "ESLint-Config is a comprehensive ESLint configuration package that helps you maintain code quality and consistency in your JavaScript and TypeScript projects",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "https://github.com/BasheerRajeh/config-eslint-js",
+  "homepage": "https://github.com/BasheerRajeh/eslint-config-js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BasheerRajeh/config-eslint-js.git"
+    "url": "git+https://github.com/BasheerRajeh/eslint-config-js.git"
   },
   "bugs": {
-    "url": "https://github.com/BasheerRajeh/next-eslint.js/issues"
+    "url": "https://github.com/BasheerRajeh/eslint-config-js/issues"
   },
   "files": [
     ".gitignore",
@@ -47,8 +47,8 @@
   },
   "keywords": [
     "eslint",
-    "config-eslint",
-    "configeslint",
+    "eslint-config",
+    "eslintconfig",
     "basheerrajeh"
   ],
   "publishConfig": {
