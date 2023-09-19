@@ -42,6 +42,9 @@
     "eslint": "^8.49.0",
     "husky": "^8.0.0"
   },
+  "peerDependencies": {
+    "eslint": ">= 8"
+  },
   "keywords": [
     "eslint",
     "config-eslint",
