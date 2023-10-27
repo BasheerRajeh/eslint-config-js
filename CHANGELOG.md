@@ -1,5 +1,11 @@
 # eslint-config-rajeh
 
+## 0.3.0
+
+### Minor Changes
+
+- 361b5ab: chore: updating minor packages
+
 ## 0.2.2
 
 ### Patch Changes
